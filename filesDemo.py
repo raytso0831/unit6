@@ -2,12 +2,13 @@
 #5/9/18
 #fileDemo.py
 
-file=open('engmix.txt')
+file = open('engmix.txt')
 
-numWords=0
+numWords = 0
 for line in file:
-    if 'ray' in line:
+    if 'tso' in line:
         print(line.strip())
-    numWords +=1
+    numWords += 1
     
 print(numWords)
+
