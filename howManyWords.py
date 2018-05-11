@@ -7,7 +7,8 @@ words=[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 
 numWords = 0
 for line in file:
-    words[len(line)]+=1
-print(words)
-    
+    words[len(line.strip())]+=1
+
+for i in range(0,23):
+    print('there is',w,'words')
 
