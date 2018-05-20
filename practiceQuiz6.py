@@ -10,10 +10,21 @@ for line in file:
         '''
 
 #program 2
+'''
 file=open('engmix.txt')
 numWord=0
 for line in file:
     if 'r'in line:
         numWord +=1
 print(numWord)
+'''
+
+#program 3
+file=open('engmix.txt')
+numWord=int(input('Enter a number'))
+for line in file:
+    if len(line.strip())==numWord:
+        print(line.strip())
+        break
+
 
