@@ -40,6 +40,24 @@ for line in file:
 print('There is',numWord,'words without the letter' ,letter, )
 '''
 
+'''
+#program 5
+
+file=open('engmix.txt')
+list=[]
+for line in file:
+    if line.strip()!="":
+        list.append(line.strip())
+print(list[len(list)//2-1])
+
+
+
+
+
+
+
+
+
 
 
 
