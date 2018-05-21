@@ -17,6 +17,7 @@ file=open('engmix.txt')
 for line in file:
     if line[0]==line[4] and line[0]==line[8] and line[4]==line[8]:
         print(line.strip())
+        '''
         
 '''
 #program 3
@@ -27,7 +28,8 @@ for line in file:
     if len(line.strip())==numWord and  letter in line:
         print(line.strip())
         break
-        
+        '''
+    
 '''
 #program 4
 file=open('filesDemo.py')
@@ -35,6 +37,7 @@ file=open('filesDemo.py')
 for line in file:
     words=line.split()
     if len(words)==10:
+    
         print(words[7999])
         '''
     
